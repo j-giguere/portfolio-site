@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Portfolio</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Jonathan Giguere</span></h1>
+            <p class="hero-subtitle">An Engineer with a Passion for Data</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="cta-button">View My Work</a>
+                <a href="#contact" class="cta-button secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Coding Project">
+                </div>
+                <h3>Project 1</h3>
+                <p>Description of your first project</p>
+                <div class="project-links">
+                    <a href="#" class="project-link">View Project</a>
+                    <a href="#" class="project-link">Source Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="Web Design Project">
+                </div>
+                <h3>Project 2</h3>
+                <p>Description of your second project</p>
+                <div class="project-links">
+                    <a href="#" class="project-link">View Project</a>
+                    <a href="#" class="project-link">Source Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&h=400&q=80" alt="App Development Project">
+                </div>
+                <h3>Project 3</h3>
+                <p>Description of your third project</p>
+                <div class="project-links">
+                    <a href="#" class="project-link">View Project</a>
+                    <a href="#" class="project-link">Source Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">May 2022 – Present</div>
+                    <h3>Senior Data Engineer</h3>
+                    <h4>Openly - New York, NY (Remote)</h4>
+                    <ul class="timeline-description">
+                        <li>Designed and implemented features for a BigQuery based data warehouse consolidating data from internal and external systems</li>
+                        <li>Developed robust integrations across diverse home insurance related data sources</li>
+                        <li>Created automated and idempotent batch and streaming pipelines for various data formats</li>
+                        <li>Established a comprehensive framework for process logging and pipeline cost analysis</li>
+                        <li>Implemented replication from PostgreSQL to BigQuery using Debezium and Kafka</li>
+                        <li>Developed proactive alerting mechanisms and automated data quality checks</li>
+                        <li>Managed infrastructure as code using Terraform</li>
+                        <li>Facilitated cross-functional collaboration and mentored junior engineers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">Mar. 2021 – May 2022</div>
+                    <h3>Data Engineer</h3>
+                    <h4>AbleTo - New York, NY (Remote)</h4>
+                    <ul class="timeline-description">
+                        <li>Developed and maintained batch pipelines converting medical claims and patient data into Salesforce leads</li>
+                        <li>Built DAGs with various sources and targets: BigQuery, Client Servers, APIs, GCS, and PostGres</li>
+                        <li>Collaborated on the design and implementation of an improved data warehouse</li>
+                        <li>Contributed to and utilized custom Python modules for GCP services</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">Jan. 2020 – Aug. 2020</div>
+                    <h3>Data Science Intern</h3>
+                    <h4>National League of Cities - Washington, D.C.</h4>
+                    <ul class="timeline-description">
+                        <li>Developed automated pipelines transforming census data into actionable insights</li>
+                        <li>Created dashboards and maps for research outcomes</li>
+                        <li>Communicated technical concepts to non-technical managers</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-date">Aug. 2018 - Aug. 2019</div>
+                    <h3>Technology Risk Staff</h3>
+                    <h4>Ernst & Young - Mclean, VA</h4>
+                    <ul class="timeline-description">
+                        <li>Analyzed data from business related IT systems</li>
+                        <li>Reported audit findings to top-level management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Programming & Databases</h3>
+                <div class="skill-items">
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>Postgres</span>
+                    <span>Py Notebooks</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Cloud & Infrastructure</h3>
+                <div class="skill-items">
+                    <span>GCP</span>
+                    <span>BigQuery</span>
+                    <span>Cloud SQL</span>
+                    <span>PubSub</span>
+                    <span>Cloud Functions</span>
+                    <span>GKE</span>
+                    <span>GCS</span>
+                    <span>Compute Engine</span>
+                    <span>AWS</span>
+                    <span>Terraform</span>
+                    <span>Docker</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Data & Orchestration</h3>
+                <div class="skill-items">
+                    <span>Airflow</span>
+                    <span>Kafka</span>
+                    <span>Fivetran</span>
+                    <span>Composer</span>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Platforms</h3>
+                <div class="skill-items">
+                    <span>VS Code</span>
+                    <span>GitHub</span>
+                    <span>Jira</span>
+                    <span>CircleCI</span>
+                    <span>LucidChart</span>
+                    <span>Excel</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p>Feel free to reach out for collaborations or just a friendly hello</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Jonathan Giguere. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
